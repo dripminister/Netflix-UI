@@ -7,7 +7,7 @@ export default function Featured() {
 
   const [movies, setMovies] = useState([])
   const [movie, setMovie] = useState(null)
-  const url = `https://api.themoviedb.org/3/movie/popular?api_key=a38cc71f7352583dc61fce6d872eaf66&language=en-US&page=1`
+  const url = //Get your API KEY and URL on https://www.themoviedb.org/
 
   useEffect(() => {
     fetch(url)
